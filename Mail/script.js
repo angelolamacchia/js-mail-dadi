@@ -9,9 +9,10 @@ console.log(utente);
 for (var i=0; i < 5; i++) {
     if (mail[i] == utente) {
         alert("Utente accettato");
+        document.getElementById("accesso").innerHTML = "Accesso effettuato"
         break;
     } else if (mail[i] != utente) {
-        alert("Accesso negato");
+        document.getElementById("accesso").innerHTML = "Accesso negato riprova"
     }
 };
 
