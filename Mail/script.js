@@ -10,9 +10,8 @@ for (var i=0; i < 5; i++) {
     if (mail[i] == utente) {
         alert("Utente accettato");
         break;
-    } else {
+    } else if (mail[i] != utente) {
         alert("Accesso negato");
-        break;
     }
 };
 
